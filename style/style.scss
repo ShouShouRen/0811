@@ -1,0 +1,173 @@
+// customized
+$primary: #10B2C3;
+$light: #f2f2f2;
+
+@import './_functions';
+@import './_variables';
+@import './_myutilities.scss';
+$custom-theme-colors: (
+    "red-1": #D97171,
+    "red-2": #C31010,
+    "red-3": #8E0000,
+    "blue-1": #5DCDD7,
+    "blue-2": #10B2C3,
+    "blue-3": #01707A,
+    "gary-1": #CDCDCD,
+    "gary-2": #cfcfcf,
+    "gary-3": #555555,
+    "gary-4": #141414,
+);
+$theme-colors: map-merge($custom-theme-colors, $theme-colors );
+
+section {
+    padding-top: 70px;
+    height: 100vh;
+}
+
+@media (max-width: 992px) {
+    section,
+    .row {
+        height: 100% !important;
+    }
+}
+
+* {
+    position: relative;
+}
+
+
+
+// compoment
+.navbar {
+    .nav-link {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    a {
+        color: #1D1D1D;
+        transition: all .4s ease;
+
+        &:hover {
+            color: #10B2C3;
+        }
+    }
+}
+
+.car-img {
+    height: calc(100vh - 71px);
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-caption {
+    top: 45%;
+    right: 0;
+
+    h4 {
+        font-size: 52px;
+        font-weight: 800;
+    }
+
+    p {
+        font-size: 24px;
+    }
+
+    img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    @media (max-width: 992px) {
+        img {
+            display: none;
+        }
+    }
+
+    .move-left-top {
+        position: absolute;
+        left: 0;
+        top: -300px;
+        animation-delay: 800ms;
+        animation-duration: 2s;
+    }
+
+    .move-right-bottom {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        animation-delay: 600ms;
+        animation-duration: 2s;
+    }
+}
+
+
+#about {
+    // background-image: url('../image/About-s.jpg');
+    background-size: cover;
+    background-position: center;
+
+    h2 {
+        font-weight: 800;
+        font-size: 52px;
+    }
+
+    p {
+        font-size: 22px;
+        line-height: calc(22px * 2);
+        letter-spacing: 4px;
+        text-align: justify;
+    }
+
+    img {
+        width: 380px;
+        height: 380px;
+        object-fit: cover;
+        object-position: center right;
+    }
+}
+#news{
+    background-image: url('../image/About-s.jpg');
+    background-size: cover;
+    background-position: center;
+    h2{
+        font-weight: 800;
+        font-size: 52px;
+    }
+    p{
+        font-size: 22px;
+        line-height: calc(22px * 2);
+        letter-spacing: 4px;
+        text-align: justify;
+    }
+    .obj-img{
+        width: 410px;
+        height: 231px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+#shop{
+    h2{
+        font-weight: 800;
+        font-size: 52px;
+    }
+    p{
+        font-size: 22px;
+        line-height: calc(22px * 2);
+        letter-spacing: 4px;
+        text-align: justify;
+    }
+}
+
+
+@import './bootstrap.scss';
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #2f2f2f;
+}
