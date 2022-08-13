@@ -10075,6 +10075,9 @@ textarea.form-control-lg {
 .nav-pills .show > .nav-link {
   background-color: #2f2f2f; }
 
+ul, li {
+  list-style: none; }
+
 section {
   padding-top: 70px; }
 
@@ -10185,13 +10188,20 @@ section {
   #shop .obj-img:hover {
     border-radius: 40px; }
 
-#content h2, #content .h2 {
-  font-weight: 800;
-  font-size: 52px; }
-#content p {
-  font-size: 22px;
-  line-height: calc(22px * 2);
-  letter-spacing: 4px;
-  text-align: justify; }
+#content {
+  background-image: url("../image/contact.jpg");
+  background-size: cover;
+  height: 100vh; }
+  #content h2, #content .h2 {
+    font-weight: 800;
+    font-size: 52px; }
+  #content p {
+    font-size: 22px;
+    line-height: calc(22px * 2);
+    letter-spacing: 4px;
+    text-align: justify; }
+  #content i {
+    font-size: 60px;
+    color: #555555; }
 
 /*# sourceMappingURL=style.css.map */
