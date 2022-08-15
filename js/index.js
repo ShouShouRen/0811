@@ -31,11 +31,11 @@ $("#submit").click(function () {
 $(document).ready(function () {
     $(window).scroll(function () {
         if ($(window).width() < 768) {
-            $("#navbarToggler a").click(function () {
-                $("#navbarToggler").collapse('hide');
+            $("#navbarNav a").click(function () {
+                $("#navbarNav").collapse('hide');
             });
             $(window).scroll(function () {
-                $("#navbarToggler").collapse('hide');
+                $("#navbarNav").collapse('hide');
             });
         }
     })
