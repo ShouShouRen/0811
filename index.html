@@ -25,7 +25,7 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-end text-end" id="navbarNav">
                 <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" href="#about">關於我們</a>
@@ -43,7 +43,7 @@
             </div>
         </div>
     </nav>
-    <div id="carousel" class="carousel slide d-none d-xl-block" data-bs-ride="carousel" style="padding-top: 71px;">
+    <div id="carousel" class="carousel slide d-none d-xl-block" data-bs-ride="carousel" style="padding-top: 65px;">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="./image/S1s.jpg" class="d-block w-100 car-img" alt="...">
@@ -128,7 +128,7 @@
                     </div>
                     <div class="tab-pane fade" id="pills-third" role="tabpanel" aria-labelledby="pills-third-tab"
                         tabindex="0">
-                        <canvas id="myChart" class="w-100" height="50"></canvas>
+                        <canvas id="myChart" class="w-100" height="70vh"></canvas>
                     </div>
                 </div>
             </div>
@@ -139,27 +139,27 @@
         <div class="container">
             <h2 class="text-red-1 text-center">疫情資訊</h2>
             <div class="row p-2 mt-3 justify-content-center align-items-center text-light wow fadeIn" data-wow-duration="5s">
-                <p>
+                <p class="pt-4">
                     此病毒臨發病者，類破傷風桿菌分泌毒素，攻擊神經突觸，導致神經異常放電，影響神經傳導，進⽽出現肌⾁僵直、痙攣，稱為「⾓⼸反張」（頸背痙攣僵硬、腰背反折，⾝體後仰如⼸狀），臉部酒窩處也可能出現詭異的「痙笑」，「不是真的在笑，⽽是因為肌⾁異常收縮。」連呼吸也會受影響，可能因呼吸困難⽽死亡。
                 </p>
             </div>
-            <div class="row px-2 mt-3 align-items-center text-center">
+            <div class="row px-2 mt-3 align-items-center text-center pb-5">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <img src="./image/N-1.jpg" alt="" class="img-fluid obj-img">
-                    <h4 class="text-gary-2 py-1">新型冠狀病毒</h4>
+                    <h4 class="text-gary-2 py-4">新型冠狀病毒</h4>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <img src="./image/N-2.jpg" alt="" class="img-fluid obj-img">
-                    <h4 class="text-gary-2 py-1">國內最強研發團隊</h4>
+                    <h4 class="text-gary-2 py-4">國內最強研發團隊</h4>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <img src="./image/N-3.jpg" alt="" class="img-fluid obj-img">
-                    <h4 class="text-gary-2 py-1">防疫物資不可少</h4>
+                    <h4 class="text-gary-2 py-4">防疫物資不可少</h4>
                 </div>
             </div>
-            <div class="col-12 py-4 d-none d-xxl-block">
+            <!-- <div class="col-12 py-4 d-none d-xxl-block">
                 <img src="./image/N-4.jpg" alt="" class="img-fluid w-100 obj-img" style="height: 250px;">
-            </div>
+            </div> -->
         </div>
     </section>
     <section id="shop" style="padding-bottom: 70px">
@@ -213,25 +213,24 @@
     </section>
     <section id="content" style="padding-bottom: 70px;">
         <div class="container">
-            <h2 class="text-end text-red-1">聯絡我們</h2>
+            <h2 class="text-end text-red-1 p-3">聯絡我們</h2>
             <div class="row justify-content-center align-content-center pt-5 bg-filter flex-sm-row-reversef flex-row px-4">
                 <div class="col-lg-6">
                     <div class="d-flex  align-items-center py-3">
-                        <i class="fa-solid fa-location-dot px-2"></i>
-                        <p class="ps-3 text-white m-0">地址：<br>新北市三重區oo路oo號</p>
+                        <i class="fa-solid fa-location-dot px-2 fa-4x"></i>
+                        <p class="ps-4 text-white m-0">新北市三重區oo路oo號</p>
                     </div>
                     <div class="d-flex align-items-center py-3">
-                        <i class="fa-solid fa-envelope"></i>
-                        <p class="ps-3 text-white m-0">Mail:<br>123@gmail.com</p>
-                        <!-- <p class="ps-3 text-white m-0">地址：新北市三重區oo路oo號</p> -->
+                        <i class="fa-solid fa-envelope fa-4x"></i>
+                        <p class="ps-4 text-white m-0">123@gmail.com</p>
                     </div>
                     <div class="d-flex align-items-center py-3">
-                        <i class="fa-brands fa-square-facebook"></i>
-                        <p class="ps-3 text-white m-0">FB:<br>疫起來守護</p>
+                        <i class="fa-brands fa-square-facebook fa-4x"></i>
+                        <p class="ps-4 text-white m-0">疫起來守護</p>
                     </div>
                     <div class="d-flex align-items-center py-3">
-                        <i class="fa-brands fa-instagram"></i>
-                        <p class="ps-3 text-white m-0">IG:<br>@134._yese</p>
+                        <i class="fa-brands fa-instagram fa-4x"></i>
+                        <p class="ps-4 text-white m-0">@134._yese</p>
                     </div>
                 </div>
                 <div class="col-lg-6 m-0">

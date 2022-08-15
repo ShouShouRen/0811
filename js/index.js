@@ -74,6 +74,7 @@ $(document).ready(function () {
         $(".num").val(0);
         $(".disnum").val(0);
     })
+
 });
 
 $("#gotop").click(function () {
@@ -82,3 +83,4 @@ $("#gotop").click(function () {
     })
     return false;
 })
+
