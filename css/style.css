@@ -10075,7 +10075,8 @@ textarea.form-control-lg {
 .nav-pills .show > .nav-link {
   background-color: #2f2f2f; }
 
-ul, li {
+ul,
+li {
   list-style: none; }
 
 section {
@@ -10104,8 +10105,7 @@ section {
   object-position: center; }
 
 .carousel-caption {
-  top: 45%;
-  right: 0; }
+  top: 45%; }
   .carousel-caption h4, .carousel-caption .h4 {
     font-size: 52px;
     font-weight: 800; }
@@ -10127,7 +10127,7 @@ section {
     animation-duration: 2s; }
   .carousel-caption .move-right-bottom {
     position: absolute;
-    right: 300px;
+    right: 0;
     bottom: 0;
     animation-delay: 600ms;
     animation-duration: 2s; }
@@ -10190,8 +10190,7 @@ section {
 
 #content {
   background-image: url("../image/contact.jpg");
-  background-size: cover;
-  height: 100vh; }
+  background-size: cover; }
   #content h2, #content .h2 {
     font-weight: 800;
     font-size: 52px; }
@@ -10203,5 +10202,12 @@ section {
   #content i {
     font-size: 60px;
     color: #555555; }
+  #content form {
+    font-size: 22px; }
+
+#footer {
+  height: 65px;
+  background: #10B2C3;
+  color: #D97171; }
 
 /*# sourceMappingURL=style.css.map */
