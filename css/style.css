@@ -75,7 +75,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-red-1: #D97171;
+  --bs-red-1: #ff9494;
   --bs-red-2: #C31010;
   --bs-red-3: #8E0000;
   --bs-blue-1: #5DCDD7;
@@ -93,7 +93,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f2f2f2;
   --bs-dark: #212529;
-  --bs-red-1-rgb: 217, 113, 113;
+  --bs-red-1-rgb: 255, 148, 148;
   --bs-red-2-rgb: 195, 16, 16;
   --bs-red-3-rgb: 142, 0, 0;
   --bs-blue-1-rgb: 93, 205, 215;
@@ -2491,19 +2491,19 @@ textarea.form-control-lg {
 
 .btn-red-1 {
   --bs-btn-color: #000;
-  --bs-btn-bg: #D97171;
-  --bs-btn-border-color: #D97171;
+  --bs-btn-bg: #ff9494;
+  --bs-btn-border-color: #ff9494;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #df8686;
-  --bs-btn-hover-border-color: #dd7f7f;
-  --bs-btn-focus-shadow-rgb: 184, 96, 96;
+  --bs-btn-hover-bg: #ffa4a4;
+  --bs-btn-hover-border-color: #ff9f9f;
+  --bs-btn-focus-shadow-rgb: 217, 126, 126;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #e18d8d;
-  --bs-btn-active-border-color: #dd7f7f;
+  --bs-btn-active-bg: #ffa9a9;
+  --bs-btn-active-border-color: #ff9f9f;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: #D97171;
-  --bs-btn-disabled-border-color: #D97171; }
+  --bs-btn-disabled-bg: #ff9494;
+  --bs-btn-disabled-border-color: #ff9494; }
 
 .btn-red-2 {
   --bs-btn-color: #fff;
@@ -2778,19 +2778,19 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #212529; }
 
 .btn-outline-red-1 {
-  --bs-btn-color: #D97171;
-  --bs-btn-border-color: #D97171;
+  --bs-btn-color: #ff9494;
+  --bs-btn-border-color: #ff9494;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #D97171;
-  --bs-btn-hover-border-color: #D97171;
-  --bs-btn-focus-shadow-rgb: 217, 113, 113;
+  --bs-btn-hover-bg: #ff9494;
+  --bs-btn-hover-border-color: #ff9494;
+  --bs-btn-focus-shadow-rgb: 255, 148, 148;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #D97171;
-  --bs-btn-active-border-color: #D97171;
+  --bs-btn-active-bg: #ff9494;
+  --bs-btn-active-border-color: #ff9494;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #D97171;
+  --bs-btn-disabled-color: #ff9494;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #D97171;
+  --bs-btn-disabled-border-color: #ff9494;
   --bs-gradient: none; }
 
 .btn-outline-red-2 {
@@ -4328,11 +4328,11 @@ textarea.form-control-lg {
     padding: 1.25rem 1rem; }
 
 .alert-red-1 {
-  --bs-alert-color: #824444;
-  --bs-alert-bg: #f7e3e3;
-  --bs-alert-border-color: #f4d4d4; }
+  --bs-alert-color: #995959;
+  --bs-alert-bg: #ffeaea;
+  --bs-alert-border-color: #ffdfdf; }
   .alert-red-1 .alert-link {
-    color: #683636; }
+    color: #7a4747; }
 
 .alert-red-2 {
   --bs-alert-color: #750a0a;
@@ -4679,15 +4679,15 @@ textarea.form-control-lg {
       border-bottom-width: 0; }
 
 .list-group-item-red-1 {
-  color: #824444;
-  background-color: #f7e3e3; }
+  color: #995959;
+  background-color: #ffeaea; }
   .list-group-item-red-1.list-group-item-action:hover, .list-group-item-red-1.list-group-item-action:focus {
-    color: #824444;
-    background-color: #decccc; }
+    color: #995959;
+    background-color: #e6d3d3; }
   .list-group-item-red-1.list-group-item-action.active {
     color: #fff;
-    background-color: #824444;
-    border-color: #824444; }
+    background-color: #995959;
+    border-color: #995959; }
 
 .list-group-item-red-2 {
   color: #750a0a;
@@ -6089,7 +6089,7 @@ textarea.form-control-lg {
 
 .text-bg-red-1 {
   color: #000 !important;
-  background-color: RGBA(217, 113, 113, var(--bs-bg-opacity, 1)) !important; }
+  background-color: RGBA(255, 148, 148, var(--bs-bg-opacity, 1)) !important; }
 
 .text-bg-red-2 {
   color: #fff !important;
@@ -6160,9 +6160,9 @@ textarea.form-control-lg {
   background-color: RGBA(33, 37, 41, var(--bs-bg-opacity, 1)) !important; }
 
 .link-red-1 {
-  color: #D97171 !important; }
+  color: #ff9494 !important; }
   .link-red-1:hover, .link-red-1:focus {
-    color: #e18d8d !important; }
+    color: #ffa9a9 !important; }
 
 .link-red-2 {
   color: #C31010 !important; }
