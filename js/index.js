@@ -21,6 +21,7 @@ new Chart("myChart", {
 
 function alertSubmit() {
     alert('資料已送出感謝您的諮詢');
+    $("input").innerText == "";
 }
 
 
