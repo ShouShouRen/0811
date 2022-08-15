@@ -1,3 +1,4 @@
+new WOW().init();
 var xValues = [1000, 2000, 3000, 4000, 5000, 6000, 7000];
 new Chart("myChart", {
     type: "line",
@@ -18,6 +19,6 @@ new Chart("myChart", {
     }
 });
 
-alertSubmit(){
-    alert('')
+function alertSubmit(){
+    alert('資料已送出感謝您的諮詢');
 }

@@ -10133,6 +10133,7 @@ section {
     animation-duration: 2s; }
 
 #about {
+  background-image: url("../image/bg.jpg");
   background-size: cover;
   background-position: center; }
   #about h2, #about .h2 {
@@ -10206,7 +10207,6 @@ section {
     font-size: 22px; }
 
 #footer {
-  height: 65px;
   background: #10B2C3;
   color: #D97171; }
 
