@@ -18,7 +18,9 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-light position-fixed w-100 z-index-10">
         <div class="container">
-            <img src="./image/logo.png" alt="logo" class="img-fluid" width="220" height="100">
+            <a href="index.html">
+                <img src="./image/logo.png" alt="logo" class="img-fluid" width="220" height="100">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
                 aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -78,8 +80,7 @@
     <section id="about">
         <!-- <div class="mask"></div> -->
         <div class="container">
-            <h2 class="text-primary py-1 text-end wow fadeInLeft" data-wow-duration="1s">關於我們</h2>
-            <hr>
+            <h2 class="text-primary py-1 text-end wow fadeInLeft" data-wow-duration="1s" style="border-bottom: 4px solid #D97171;">關於我們</h2>
             <div class="row p-2 align-items-center justify-content-center">
                 <div class="col-lg-4 col-12 mb-5 mb-lg-0 text-center">
                     <img src="./image/About-sec.jpg" alt="" class="img-fluid round-50 wow bounceInUp" data-wow-duration="1s">
@@ -137,7 +138,7 @@
         <div class="mask"></div>
         <div class="container">
             <h2 class="text-red-1 text-center">疫情資訊</h2>
-            <div class="row p-2 mt-3 justify-content-center align-items-center text-light">
+            <div class="row p-2 mt-3 justify-content-center align-items-center text-light wow fadeIn" data-wow-duration="5s">
                 <p>
                     此病毒臨發病者，類破傷風桿菌分泌毒素，攻擊神經突觸，導致神經異常放電，影響神經傳導，進⽽出現肌⾁僵直、痙攣，稱為「⾓⼸反張」（頸背痙攣僵硬、腰背反折，⾝體後仰如⼸狀），臉部酒窩處也可能出現詭異的「痙笑」，「不是真的在笑，⽽是因為肌⾁異常收縮。」連呼吸也會受影響，可能因呼吸困難⽽死亡。
                 </p>
@@ -262,6 +263,7 @@
     <footer id="footer" class="text-center py-3 fz-20">
         &copy;<span>本網站符合RWD響應式設計<br>使用Bootstrap5開發</span>
     </footer>
+    <i class="fa-solid fa-circle-chevron-up" id="gotop"></i>
 </body>
 <script src="./js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
