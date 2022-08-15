@@ -237,21 +237,21 @@
                     <div class="bg-blacks shadow-lg round-20">
                         <form action="javascript:;" class="p-5 text-white">
                             <div class="p-2">
-                                姓名:<input type="text" class="form-control w-100">
+                                姓名:<input id="sub" type="text" class="form-control w-100">
                             </div>
                             <div class="p-2">
-                                E-mail:<input type="email" class="form-control w-100">
+                                E-mail:<input id="sub" type="email" class="form-control w-100">
                             </div>
                             <div class="p-2">
-                                電話:<input type="phone" class="form-control w-100">
+                                電話:<input id="sub" type="phone" class="form-control w-100">
                             </div>
                             <div class="p-2">
                                 寶貴問題及意見:
-                                <textarea class="form-control w-100"></textarea>
+                                <textarea class="form-control w-100" id="sub"></textarea>
                             </div>
                             <div class="d-flex p-2 justify-content-center">
                                 <button type="reset" class="btn btn-outline-primary rounded-5 mx-2">清除</button>
-                                <button onclick="alertSubmit()" type="submit"
+                                <button id="submit" type="submit"
                                     class="btn btn-outline-primary rounded-5 mx-2">送出</button>
                             </div>
                         </form>

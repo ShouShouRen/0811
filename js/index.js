@@ -19,11 +19,14 @@ new Chart("myChart", {
     }
 });
 
-function alertSubmit() {
-    alert('資料已送出感謝您的諮詢');
-    $("input").innerText == "";
-}
-
+$("#submit").click(function () { 
+    if(!$("#sub,#sub,#sub,#sub").val()==""){
+        alert("感謝您的意見，我們會儘速回覆您!")
+        $("#sub,#sub,#sub,#sub").val("");
+    }else{
+        alert("請輸入內容！")
+    }
+ })
 
 $(document).ready(function () {
     $(window).scroll(function () {
