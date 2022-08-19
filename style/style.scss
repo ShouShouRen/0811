@@ -30,30 +30,10 @@ $theme-colors: map-merge($custom-theme-colors, $theme-colors );
 .nav-pills .show>.nav-link {
     background-color: #2f2f2f;
     transition: all .4s ease;
-    &:hover{
-        background-color: #C31010;
-    }
+    // &:hover{
+    //     background-color: #C31010;
+    // }
 }
-// @keyframes clic {
-//     0%{
-//         opacity: 1;
-//     }
-//     25%{
-//         background-color: #C31010;
-//     }
-//     50%{
-//         opacity: 1;
-//     }
-//     75%{
-//         background-color: #C31010;
-
-//     }
-//     100%{
-//         opacity: 1;
-//     }
-// }
-
-
 
 ul,
 li {
