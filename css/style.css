@@ -10114,7 +10114,7 @@ section {
     font-size: 52px;
     font-weight: 800; }
   .carousel-caption p {
-    font-size: 24px; }
+    font-size: 18px; }
   .carousel-caption img {
     width: 300px;
     height: 300px;
@@ -10144,9 +10144,9 @@ section {
     font-weight: 800;
     font-size: 52px; }
   #about p {
-    font-size: 22px;
-    line-height: calc(22px * 2);
-    letter-spacing: 4px;
+    font-size: 18px;
+    line-height: calc(18px * 2);
+    letter-spacing: 2px;
     text-align: justify; }
   #about img {
     width: 380px;
@@ -10162,9 +10162,9 @@ section {
     font-weight: 800;
     font-size: 52px; }
   #news p {
-    font-size: 22px;
-    line-height: calc(22px * 2);
-    letter-spacing: 4px;
+    font-size: 18px;
+    line-height: calc(18px * 2);
+    letter-spacing: 2px;
     text-align: justify; }
   #news img {
     animation: light 5s infinite; }
@@ -10189,9 +10189,9 @@ section {
   font-weight: 800;
   font-size: 52px; }
 #shop p {
-  font-size: 22px;
-  line-height: calc(22px * 2);
-  letter-spacing: 4px;
+  font-size: 18px;
+  line-height: calc(18px * 2);
+  letter-spacing: 2px;
   text-align: justify; }
 #shop i {
   cursor: pointer; }
@@ -10221,18 +10221,18 @@ section {
     font-weight: 800;
     font-size: 52px; }
   #content p {
-    font-size: 22px;
-    line-height: calc(22px * 2);
-    letter-spacing: 4px;
+    font-size: 18px;
+    line-height: calc(18px * 2);
+    letter-spacing: 2px;
     text-align: justify; }
   #content i {
     color: #555555; }
   #content form {
-    font-size: 22px; }
+    font-size: 18px; }
 
 #footer {
   background: #10B2C3;
-  color: #D97171; }
+  color: #1414; }
 
 .fa-circle-chevron-up {
   position: fixed;
